@@ -26,7 +26,7 @@ Pokédex consuming the [pokeapi](https://pokeapi.co/) api.
 
 ## 🔖 Layout
 
-You can view the layout of this project by clicking [here]().
+You can view the layout of this project by clicking [here](https://pokedex.roger3g.vercel.app/).
 
 ## 🖥 Environment Support
 
