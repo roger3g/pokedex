@@ -1,6 +1,10 @@
 const main = document.querySelector('#pokedex')
 const pokemonsNumber = 150
 
+setTimeout(() => {
+  document.querySelector('.modal').style.display = 'none'
+}, 4000)
+
 const getContent = async () => {
   for (let i = 1; i <= pokemonsNumber; i++) {
     try {
