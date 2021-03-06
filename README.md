@@ -14,7 +14,7 @@
 
 - **Front-End**
   - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-  - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  - [SASS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
   
 - **Back-End**
@@ -42,6 +42,7 @@ This project is being the basis for my learning, so I make constant changes to i
 
 - [ ] Improve the layout;
 - [ ] Improve responsiveness;
+- [ ] Add infinte scroll;
 - [ ] Refactor.
 
 ## 📂 Directory structure
@@ -49,6 +50,10 @@ This project is being the basis for my learning, so I make constant changes to i
 ```
 |-- .github/
 |-- public/
+  |-- assets/
+  |-- pages/
+  |-- scripts/
+  |-- styles/
 |-- src/
 |-- .gitignore
 |-- LICENSE.md
@@ -72,6 +77,9 @@ $ npm install
 
 # Run the application in development mode
 $ npm run dev:server
+
+# Run the sass (It is important that you have sass installed)
+$ npm run dev:sass
 
 # The port that the server will open will be shown on the console
 ```
