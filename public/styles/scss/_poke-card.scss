@@ -1,0 +1,81 @@
+.card {
+  width: 30rem;
+  height: 45rem;
+
+  margin: 0 1rem 3rem 1rem;
+
+  background-color: #FFF;
+
+  border: 0.2rem solid #d4d4d4;
+  border-radius: 2rem;
+
+  @include flex(center, space-between, column);
+
+  .container-image {
+    width: 100%;
+    height: 20rem;
+
+    border-radius: 2rem 2rem 0 0;
+
+    @include flex(center, center, column);
+
+    .poke-image {
+      width: 60%;
+    }
+  }
+
+  .container-info {
+    height: 25rem;
+    width: 100%;
+    
+    @include flex(center, space-evenly, column);
+
+    .poke-name {
+      font-size: 1.8rem;
+      color: #282a36;
+      font-weight: bold;
+    }
+
+    .poke-info {
+      width: 100%;
+      padding: 1rem;
+
+      @include flex(center, space-evenly, row);
+
+      span {
+        @include flex(center, center, column);
+
+        .value {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: #32264d;
+        }
+
+        .property {
+          font-size: 1.1rem;
+          font-weight: bold;
+          color: #7d8195;
+        }
+      }
+
+      .separator {
+        width: 0;
+        height: 100%;
+        border: 0.1rem solid #D4C2FF;
+      }
+    }
+
+    .poke-ability {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #44475a;
+
+      text-align: center;
+    }
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: -1rem;
+  }
+}

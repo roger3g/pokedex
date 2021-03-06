@@ -9,17 +9,21 @@ const { join } = require('path')
 
 const PORT = process.env.PORT || 8080
 
-nunjucks.configure(join(__dirname, '/../public'), {
+nunjucks.configure(join(__dirname, '/../public/pages'), {
   express: server,
   noCache: true
 })
 
-server.use(express.urlencoded({ extended: true }))
+server.use(express.urlencoded({extended: true}))
 server.use(express.static(join(__dirname, '/../public/')))
 server.use(router)
 
+router.get('/', (req, res) => {
+  return res.render('index.html')
+})
+
 router.get('*', (req, res) => {
-  res.render('index.html')
+  return res.send('Not found')
 })
 
 server.listen(PORT, error => {
