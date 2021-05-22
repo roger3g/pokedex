@@ -17,9 +17,6 @@
   - [SASS](https://sass-lang.com/)
   - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript)
   
-- **Back-End**
-  - [Node.js](https://nodejs.org/en/)
-  
 ## 💻 Project
 
 Pokédex consuming the [pokeapi](https://pokeapi.co/) api.
@@ -49,15 +46,11 @@ This project is being the basis for my learning, so I make constant changes to i
 
 ```
 |-- .github/
-|-- public/
-  |-- assets/
-  |-- pages/
-  |-- scripts/
-  |-- styles/
-|-- src/
-|-- .gitignore
+|-- assets/
+|-- scripts/
+|-- styles/
+|-- index.html
 |-- LICENSE.md
-|-- package.json
 |-- README.md
 ```
 
@@ -71,17 +64,6 @@ $ git clone https://github.com/roger3g/pokedex.git
 
 # Access the project folder in the cmd/terminal
 $ cd pokedex
-
-# Install the dependencies
-$ npm install
-
-# Run the application in development mode
-$ npm run dev:server
-
-# Run the sass (It is important that you have sass installed)
-$ npm run dev:sass
-
-# The port that the server will open will be shown on the console
 ```
 
 ## 🤔 How to contribute
