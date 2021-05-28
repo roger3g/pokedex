@@ -48,32 +48,3 @@ setTimeout(() => {
   load.style.display = 'none'
   document.body.style.overflow = 'scroll'
 }, 5000)
-
-// const loader = document.querySelector('.loader')
-
-// const getNextPokemons = () => {
-//   console.log('chamar proximos 3 pokemons')
-// }
-
-// const removeLoader = () => {
-//   setTimeout(() => {
-//   loader.classList.remove('show')
-
-//   getNextPokemons()
-//   }, 1000)
-// }
-
-// const showLoader = () => {
-//   loader.classList.add('show')
-  
-//   removeLoader()
-// } 
-
-// window.addEventListener('scroll', () => {
-//   const { clientHeight, scrollHeight, scrollTop } = document.documentElement
-//   const isPageBottomAlmostReached = scrollTop + clientHeight >= scrollHeight - 10
-
-//   if (isPageBottomAlmostReached) {
-//     showLoader()
-//   }
-// })
